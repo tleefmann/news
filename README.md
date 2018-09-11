@@ -7,7 +7,7 @@
 3. You need to have the psql command line tool installed on your machine.
 
 #### Instructions for running the reporting tool for the newsdata database
-1. Copy the database [newsdata.sql](/newsdata.sql)  and the reporting tool [news.py](/news.py) in the same directory
+1. Copy the database newsdata.sql  and the reporting tool [news.py](/news.py) in the same directory
 2. Using a terminal cd into the directory where you copied the files
 3. Run "psql -d news -f newsdata.sql" in the command line to create tables in the database
 4. Run the news.py script using "python3 news.py"
