@@ -53,7 +53,7 @@ query = """SELECT subq1.date, CAST(100*CAST
                 group by DATE(time)
             ) AS subq1
            join (
-            select DATE(time), count(*) AS req_ok FROM log
+            SELECT DATE(time), count(*) AS req_ok FROM log
                 WHERE status='200 OK' group by DATE(time)
             ) AS subq2
            ON subq1.date=subq2.date
