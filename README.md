@@ -20,4 +20,4 @@ newsdata database. Three question, namely
 3. On which days did more than 1% of requests lead to errors?
 
 are answered using three individual SQL querys. The query results are collected and
-printed as formated text into the command line.
+printed as formatted text into the command line.
