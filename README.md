@@ -11,11 +11,12 @@
 7. Install [psycopg2](http://initd.org/psycopg/) in your Python environment in the VM.
 
 #### Instructions for running the reporting tool for the newsdata database
-1. Download/unzip [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and [news.py](/news.py) to */a_folder_of_your_choice>/FSND-Virtual-Machine/vagrant/*.
-2. cd into <a_folder_of_your_choice>/FSND-Virtual-Machine/vagrant.
-3. If not already running, restart your VM (`vagrant up`) and ssh into it (`vagrant ssh`).
-4. Use `psql -d news -f newsdata.sql` in the command line to create tables in the database.
-5. Run the [news.py](/news.py) script using `python3 news.py`.
+1. Download/unzip [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and [news.py](/news.py) to */a_folder_of_your_choice/FSND-Virtual-Machine/vagrant/*.
+2. cd into */a_folder_of_your_choice/FSND-Virtual-Machine/vagrant/*.
+3. If not already running, start your VM (`vagrant up`) and ssh into it (`vagrant ssh`).
+4. cd into */vagrant*.
+5. Use `psql -d news -f newsdata.sql` in the command line to create tables in the database.
+6. Run the [news.py](/news.py) script using `python3 news.py`.
 
 #### Design of the reporting tool:
 The reporting tool was coded using [Python3](https://www.python.org/) . The [psycopg2](http://initd.org/psycopg/) library is used to connect to the
