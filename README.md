@@ -20,7 +20,7 @@
 
 #### Design of the reporting tool:
 The reporting tool was coded using [Python3](https://www.python.org/) . The [psycopg2](http://initd.org/psycopg/) library is used to connect to the
-newsdata database. Three question, namely
+newsdata database. Three questions, namely
 1. What are the most popular three articles of all time?
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of requests lead to errors?
