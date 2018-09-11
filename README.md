@@ -2,15 +2,20 @@
 ### A simple Python based reporting tool for a PostgreSQL database
 
 #### Prerequisites for running the reporting tool for the newsdata database
-1. You need to have [Python3](https://www.python.org/) installed on your machine.
-2. You need to have the Python library [psycopg2](http://initd.org/psycopg/) installed in your Python environment.
-3. You need to have the psql command line tool installed on your machine.
+1. Install [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1).
+2. Install [Vagrant](https://www.vagrantup.com/downloads.html).
+3. Download and unzip [FSND-Virtual-Machine.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip) into */a_folder_of_your_choice/*.
+4. cd into the */a_folder_of_your_choice/FSND-Virtual-Machine/vagrant/*.
+5. Start your VM by `vagrant up`.
+6. Use `vagrant ssh` to ssh into your VM.
+7. Install [psycopg2](http://initd.org/psycopg/) in your Python environment in the VM.
 
 #### Instructions for running the reporting tool for the newsdata database
-1. Copy the database newsdata.sql  and the reporting tool [news.py](/news.py) in the same directory
-2. Using a terminal cd into the directory where you copied the files
-3. Run "psql -d news -f newsdata.sql" in the command line to create tables in the database
-4. Run the news.py script using "python3 news.py"
+1. Download/unzip [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and [news.py](/news.py) to */a_folder_of_your_choice>/FSND-Virtual-Machine/vagrant/*.
+2. cd into <a_folder_of_your_choice>/FSND-Virtual-Machine/vagrant.
+3. If not already running, restart your VM (`vagrant up`) and ssh into it (`vagrant ssh`).
+4. Use `psql -d news -f newsdata.sql` in the command line to create tables in the database.
+5. Run the [news.py](/news.py) script using `python3 news.py`.
 
 #### Design of the reporting tool:
 The reporting tool was coded using [Python3](https://www.python.org/) . The [psycopg2](http://initd.org/psycopg/) library is used to connect to the
