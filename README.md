@@ -5,7 +5,7 @@
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1).
 2. Install [Vagrant](https://www.vagrantup.com/downloads.html).
 3. Download and unzip [FSND-Virtual-Machine.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip) into */a_folder_of_your_choice/*.
-4. cd into the */a_folder_of_your_choice/FSND-Virtual-Machine/vagrant/*.
+4. cd into */a_folder_of_your_choice/FSND-Virtual-Machine/vagrant/*.
 5. Start your VM by `vagrant up`.
 6. Use `vagrant ssh` to ssh into your VM.
 7. Install [psycopg2](http://initd.org/psycopg/) in your Python environment in the VM.
