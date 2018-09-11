@@ -1,7 +1,7 @@
 # news
 ### A simple Python based reporting tool for a PostgreSQL database
 
-#### Prerequisites for running the reporting tool for the newsdata database:
+#### Prerequisites for running the reporting tool for the newsdata database
 1. You need to have [Python3](https://www.python.org/) installed on your machine.
 2. You need to have the Python library [psycopg2](http://initd.org/psycopg/) installed in your Python environment.
 3. You need to have the psql command line tool installed on your machine.
