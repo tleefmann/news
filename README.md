@@ -18,7 +18,7 @@
 5. Use `psql -d news -f newsdata.sql` in the command line to create tables in the database.
 6. Run the [news.py](/news.py) script using `python3 news.py`.
 
-#### Design of the reporting tool:
+#### Design of the reporting tool
 The reporting tool was coded using [Python3](https://www.python.org/) . The [psycopg2](http://initd.org/psycopg/) library is used to connect to the
 newsdata database. Three questions, namely
 1. What are the most popular three articles of all time?
