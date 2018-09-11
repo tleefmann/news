@@ -1,5 +1,5 @@
 # news
-### A simple Python based reporting tool for accessing a PostgreSQL database and creating reports 
+### A simple Python based reporting tool for a PostgreSQL database
 
 #### Prequisites for running the reporting tool for the newsdata database:
 1. You need to have [Python3](https://www.python.org/) installed on your machine.
